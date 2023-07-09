@@ -1,0 +1,96 @@
+h1{
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+form{
+    background-color: #e8e8e8;
+    width: 30%;
+    margin: 10rem auto;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999;
+}
+
+#name{
+    display: block;
+    margin:5px 0;
+    width: 25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline:none;
+}
+#email{
+    display: block;
+    margin: 5px 0;
+    width: 25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline:none;
+
+}
+#password{
+    /* display: block; */
+    margin: 5px 0;
+    width: 22rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #fff;
+    outline: none;
+
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-submit{
+    margin: 1rem 10rem;
+    padding: 0.8rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: #e8e8e8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    
+    
+}
+.btn-password{
+    margin: 5px 0;
+    width: 25rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.87rem;
+    border-radius: 0px 5px 5px 0;
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: relative;
+    
+}
+@media only screen and (max-width: 768px) {
+    form{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    #name{
+        width: 20rem;
+    }
+    #email{
+        width: 20rem;
+    }
+    #password{
+        width: 17rem;
+    }
+    .btn-submit{
+        margin: 1rem 6rem;
+    }
+}
